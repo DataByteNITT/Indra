@@ -1,0 +1,28 @@
+{
+  "name": "indra-backend",
+  "version": "1.0.0",
+  "description": "Indra backend server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataByteNITT/Indra/tree/server.git"
+  },
+  "author": "Mohammed Sohail <sohailsameja@gmail.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DataByteNITT/Indra/issues"
+  },
+  "homepage": "https://github.com/DataByteNITT/Indra/tree/server/#readme",
+  "dependencies": {
+    "@google-cloud/language": "^1.1.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fastparallel": "^2.3.0",
+    "lodash": "^4.17.4",
+    "request-promise": "^4.2.2",
+    "uas-get-my-keys": "^1.0.4"
+  }
+}
