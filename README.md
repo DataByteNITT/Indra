@@ -68,7 +68,7 @@ The application succesfully distinguishes between cases where it should return s
 The application worked with a fair degree of accuracy. The classification had an accuracy of around 8 on 10 times. The application can be further streamlined and improved from its current stage.
 
 
-![Alt Text](https://github.com/DataByteNITT/Indra/working.gif)
+![](https://github.com/DataByteNITT/Indra/blob/master/working.gif)
 
 ### Pitfalls
 
