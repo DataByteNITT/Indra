@@ -56,6 +56,8 @@ We were taking in data from the node server and then sending it to the custom al
 
 We used a CNN implemention by YoonKim (https://arxiv.org/abs/1408.5882) and trained it on an open source dataset called Daily Dialog (https://arxiv.org/abs/1710.03957)
 
+The CNN outputs in 4 classes: inform, commissive, directive, question. Based on the class outputs we use the probablities in the Custom Algorithm.
+
 #### Custom Algorithm
 
 We used a custom made python algorithm where we assigned values to different classes: Topic, Act, Emotion, Google_Entities. We used this, and received results from the CNN to find the highest product from the values of the classes. 
