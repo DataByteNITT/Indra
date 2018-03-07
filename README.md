@@ -77,11 +77,6 @@ The application worked with a fair degree of accuracy. The classification had an
 - The dependency tree was not implemented due to time constraints. Implementing it will allow more complex searches to be performed.
 - CNN classification was not very accurate, this could be because of data bias or because of hyper parameters not being trained properly.
 
-### Misc
-
-```
-TBC
-```
 
 #### Installation and building instructions
 
@@ -93,12 +88,6 @@ TBC
 - set the ngrok url in the ApiUtils.java class of the app code 
 - build the app from the app code
 
-
-#### Dependencies
-
-```
-TBC
-```
 
 #### Resources
 - Google NLP API
