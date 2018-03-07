@@ -5,7 +5,7 @@
 
 # Indra
 
-> AI assistant
+> Proof of Concept stage of AI assistant
 
 
 ### Idea
