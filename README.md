@@ -63,8 +63,12 @@ The search results for the "common noun --> person" were discarded. The highest 
 
 ### Results
 
+The application succesfully distinguishes between cases where it should return search results and when it should not.
+
 The application worked with a fair degree of accuracy. The classification had an accuracy of around 8 on 10 times. The application can be further streamlined and improved from its current stage.
 
+
+![Alt Text]()
 
 ### Pitfalls
 
