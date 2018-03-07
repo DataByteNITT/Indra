@@ -47,19 +47,28 @@ We forward these 2 responses received from google's API to the python server nex
 
 #### Python Server
 
-```
-TBC
-```
+The python server uses the following dependencies:
+-[Flask](https://github.com/pallets/flask)
+
+We were taking in data from the node server and then sending it to the custom algorithm and vice versa
+
+#### CNN 
+
+We used a CNN implemention by YoonKim (https://arxiv.org/abs/1408.5882) and trained it on an open source dataset called Daily Dialog (https://arxiv.org/abs/1710.03957)
+
+#### Custom Algorithm
+
+We used a custom made python algorithm where we assigned values to different classes: Topic, Act, Emotion, Google_Entities. We used this, and received results from the CNN to find the highest product from the values of the classes. 
+The search results for the "common noun --> person" were discarded. The highest product was then used to build a google search link and return results.
 
 ### Results
 
-```
-TBC
-```
+The application worked with a fair degree of accuracy. The classification had an accuracy of around 8 on 10 times. The application can be further streamlined and improved from its current stage.
+
 
 ### Pitfalls
 
-- The dependency tree was not able to be effectively used, this is an area that we can improve
+- The dependency tree was not implemented due to time constraints. Implementing it will allow more complex searches to be performed.
 - CNN classification was not very accurate, this could be because of data bias or because of hyper parameters not being trained properly.
 
 ### Misc
@@ -70,9 +79,14 @@ TBC
 
 #### Installation and building instructions
 
-```
-TBC
-```
+- install ngrok
+- run npm install in project directory
+- run python main.py in project directory
+- run node server in project directory
+- run ngrok.exe
+- set the ngrok url in the ApiUtils.java class of the app code 
+- build the app from the app code
+
 
 #### Dependencies
 
